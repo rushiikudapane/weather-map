@@ -1,0 +1,35 @@
+.btn {
+  margin-left: 20px;
+  background-color: rgb(27, 67, 81);
+  width: 30px;
+  height: 30px;
+  color: white;
+  border-radius: 10px;
+  border: 0px;
+}
+
+.btn:hover {
+  background-color: rgb(109, 205, 230);
+  color: black;
+  border: 1px solid black;
+}
+
+.btn:focus {
+  background-color: rgb(109, 205, 230);
+  color: black;
+  border: 1px solid black;
+}
+
+.page-div {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+  .page-div {
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+  }
+}
